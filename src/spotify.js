@@ -1,6 +1,6 @@
 export const authEndPoint = "https://accounts.spotify.com/authorize"; 
 
-const redirectUri = "http://localhost:3000/"//will redirect here once spotify api has authenticated user login
+const redirectUri = "https://628bd6b41f9656027476b34f--boisterous-tarsier-55f8fc.netlify.app/#"//will redirect here once spotify api has authenticated user login
 const clientId = "6ba9bad606774a1b9c3216c18cc4e15d";
 const scopes = [
     "user-read-currently-playing",
