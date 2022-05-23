@@ -3,8 +3,7 @@ export const initialState = {
     playlists: [],
     playing: false,
     item: null,
-    //remove after development completed
-    // token: "BQCW-f2-bxG0BjobCMPc7mEyQ_zjWEthieeupurNrcol3fA8A2gO9-XMzjxgoL9x4YjHiFn-t4MkTTHg2fAELx9qQBhpzR5H1iehbAPlriObfuahtw9rvs9dhmYZ4ftSvheSBScLyto3ii4dQIQ9P3wimxz4gcsVf8NX7KBlWb0pcMIF"
+  
  
 };
 
