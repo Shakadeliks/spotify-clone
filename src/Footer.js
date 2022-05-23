@@ -80,7 +80,7 @@ const VolSlider = styled(Slider)`
 
 const Footer = ({ spotify }) => {
 
-    const [{ token, item, playing, }, dispatch] = useDataLayerValue();
+    const [{ item, playing, }, dispatch] = useDataLayerValue();
 
     useEffect(() => {
         spotify.getMyCurrentPlaybackState().then(res => {
