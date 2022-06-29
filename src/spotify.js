@@ -1,7 +1,6 @@
 export const authEndPoint = "https://accounts.spotify.com/authorize"; 
 
-const redirectUri = "https://628bd6b41f9656027476b34f--boisterous-tarsier-55f8fc.netlify.app/#"//will redirect here once spotify api has authenticated user login
-const clientId = "6ba9bad606774a1b9c3216c18cc4e15d";
+const redirectUri = "https://628bd6b41f9656027476b34f--boisterous-tarsier-55f8fc.netlify.app/#/callback"//will redirect here once spotify api has authenticated user login
 const scopes = [
     "user-read-currently-playing",
     "user-read-recently-played",
@@ -25,7 +24,7 @@ export const getTokenFromUrl = () => {
 
 }
 
-export const loginUrl = `${authEndPoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialogue=true`;
+export const loginUrl = `${authEndPoint}?client_id=${process.env.REACT_APP_CLIENT_ID}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialogue=true`;
 
 
 
