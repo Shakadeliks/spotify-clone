@@ -1,6 +1,6 @@
 export const authEndPoint = "https://accounts.spotify.com/authorize"; 
 
-const redirectUri = "https://628bd6b41f9656027476b34f--boisterous-tarsier-55f8fc.netlify.app/#/callback"//will redirect here once spotify api has authenticated user login
+const redirectUri = "https://628bd6b41f9656027476b34f--boisterous-tarsier-55f8fc.netlify.app/callback"//will redirect here once spotify api has authenticated user login
 const scopes = [
     "user-read-currently-playing",
     "user-read-recently-played",
