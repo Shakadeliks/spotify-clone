@@ -4,7 +4,6 @@ export const initialState = {
     playing: false,
     item: null,
     token: null,
- 
 };
 
 const reducer = (state, action) => {
